@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vrazel Automotive | Saint Hedwig, TX</title>
+<meta name="description" content="Auto repair shop in Saint Hedwig, TX. [Add a one-sentence description of Vrazel Automotive once details are confirmed.]">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2216%22 fill=%22%231C1B19%22/><text x=%2250%22 y=%2266%22 font-family=%22Arial,sans-serif%22 font-weight=%22900%22 font-size=%2258%22 fill=%22%23C1440E%22 text-anchor=%22middle%22>V</text></svg>">
+
+<!-- Open Graph / social share preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vrazel Automotive | Saint Hedwig, TX">
+<meta property="og:description" content="Auto repair shop in Saint Hedwig, TX. [Add a one-sentence description once details are confirmed.]">
+<meta property="og:image" content="https://images.unsplash.com/photo-1676018366904-c083ed678e60?auto=format&fit=crop&w=1200&q=80">
+<!-- og:url intentionally omitted until a domain is live -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vrazel Automotive | Saint Hedwig, TX">
+<meta name="twitter:description" content="Auto repair shop in Saint Hedwig, TX. [Add a one-sentence description once details are confirmed.]">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1676018366904-c083ed678e60?auto=format&fit=crop&w=1200&q=80">
+
+<!--
+  Local business structured data (JSON-LD) intentionally omitted for now.
+  Once you have Vrazel Automotive's real address, phone, hours, and any
+  verified rating, add a schema.org "AutoRepair" block here — it's a real
+  boost to Google/Maps visibility, but only worth doing with confirmed facts.
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          asphalt: { DEFAULT: '#1C1B19', 800: '#26241F', 700: '#332F28' },
+          steel: { DEFAULT: '#4B4A46', 300: '#8B8880' },
+          rust: { DEFAULT: '#C1440E', 600: '#A83A0C', 700: '#8C2F09' },
+          safety: '#F2B705',
+          paper: '#F3EFE4',
+        },
+        fontFamily: {
+          display: ['"Bebas Neue"', 'sans-serif'],
+          body: ['Inter', 'sans-serif'],
+          mono: ['"IBM Plex Mono"', 'monospace'],
+        },
+      }
+    }
+  }
+</script>
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; }
+  .font-display { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.02em; }
+  .stripe-divider {
+    height: 14px;
+    background: repeating-linear-gradient(135deg, #F2B705, #F2B705 16px, #1C1B19 16px, #1C1B19 32px);
+  }
+  .plate-texture {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255,255,255,0.03) 0, transparent 45%),
+      radial-gradient(circle at 80% 60%, rgba(255,255,255,0.025) 0, transparent 50%);
+  }
+  .ticket-perf {
+    background-image: radial-gradient(circle, #1C1B19 3px, transparent 3px);
+    background-size: 16px 16px;
+    background-position: -8px -8px;
+  }
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body class="bg-paper text-asphalt antialiased">
+
+<!-- ================= HEADER / NAV ================= -->
+<header class="sticky top-0 z-50 bg-asphalt text-paper shadow-lg">
+  <div class="bg-rust text-paper text-xs sm:text-sm font-mono">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-1.5 flex flex-wrap items-center justify-center sm:justify-between gap-1 text-center">
+      <span>[Street Address], Saint Hedwig, TX</span>
+      <span class="hidden sm:inline">•</span>
+      <span>[Add any drop-off / after-hours note here]</span>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="flex items-center justify-between h-20">
+      <a href="#top" class="flex items-baseline gap-2 shrink-0">
+        <span class="font-display text-3xl sm:text-4xl tracking-wide">VRAZEL</span>
+        <span class="hidden sm:inline font-mono text-[11px] uppercase tracking-widest text-safety">Automotive</span>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-7 font-semibold text-sm">
+        <a href="#services" class="hover:text-safety transition-colors">Services</a>
+        <a href="#gallery" class="hover:text-safety transition-colors">Shop</a>
+        <a href="#faq" class="hover:text-safety transition-colors">FAQ</a>
+        <a href="#contact" class="hover:text-safety transition-colors">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3 sm:gap-4">
+        <span class="hidden sm:flex flex-col items-end leading-tight">
+          <span class="font-display text-2xl tracking-wide text-safety">[Phone Number]</span>
+          <span class="text-[11px] font-mono text-steel-300">[Hours placeholder]</span>
+        </span>
+        <a href="#quote" class="hidden sm:inline-block bg-rust hover:bg-rust-600 text-white font-bold text-sm sm:text-base px-4 sm:px-6 py-3 rounded-sm uppercase tracking-wide transition-colors shadow">
+          Get a Quote
+        </a>
+        <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" class="lg:hidden inline-flex items-center justify-center w-11 h-11 border border-steel/40 rounded-sm text-paper">
+          <svg id="mobile-menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="mobile-menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="hidden lg:hidden pb-6 flex flex-col gap-1 font-semibold text-sm border-t border-steel/30 pt-4">
+      <a href="#services" class="px-2 py-3 rounded-sm hover:bg-asphalt-700 hover:text-safety transition-colors">Services</a>
+      <a href="#gallery" class="px-2 py-3 rounded-sm hover:bg-asphalt-700 hover:text-safety transition-colors">Shop</a>
+      <a href="#faq" class="px-2 py-3 rounded-sm hover:bg-asphalt-700 hover:text-safety transition-colors">FAQ</a>
+      <a href="#contact" class="px-2 py-3 rounded-sm hover:bg-asphalt-700 hover:text-safety transition-colors">Contact</a>
+      <span class="px-2 py-3 text-safety">[Phone Number]</span>
+      <a href="#quote" class="mt-2 bg-rust hover:bg-rust-600 text-white font-bold text-center px-4 py-3 rounded-sm uppercase tracking-wide transition-colors shadow">
+        Get a Quote
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('mobile-menu-btn');
+    var menu = document.getElementById('mobile-menu');
+    var iconOpen = document.getElementById('mobile-menu-icon-open');
+    var iconClose = document.getElementById('mobile-menu-icon-close');
+
+    function closeMenu() {
+      menu.classList.add('hidden');
+      iconOpen.classList.remove('hidden');
+      iconClose.classList.add('hidden');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+
+    btn.addEventListener('click', function () {
+      var isOpen = !menu.classList.contains('hidden');
+      if (isOpen) {
+        closeMenu();
+      } else {
+        menu.classList.remove('hidden');
+        iconOpen.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+  })();
+</script>
+
+<a id="top"></a>
+
+<!-- ================= HERO ================= -->
+<section class="relative bg-asphalt plate-texture text-paper overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1608234493333-09825469ab3b?auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="" class="w-full h-full object-cover opacity-40">
+    <div class="absolute inset-0 bg-gradient-to-r from-asphalt via-asphalt/95 to-asphalt/40"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-asphalt via-transparent to-transparent"></div>
+  </div>
+  <div class="absolute inset-0 opacity-[0.06] pointer-events-none" style="background-image: repeating-linear-gradient(115deg, #F2B705 0, #F2B705 2px, transparent 2px, transparent 60px);"></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-14 sm:pt-24 sm:pb-20 relative">
+    <div class="max-w-3xl">
+      <p class="font-mono text-safety uppercase tracking-[0.25em] text-xs sm:text-sm mb-4">Saint Hedwig, TX &middot; [Est. Year]</p>
+      <h1 class="font-display text-5xl sm:text-7xl leading-[0.95] mb-6">
+        HONEST WORK.<br>
+        <span class="text-rust">EVERY VEHICLE.</span>
+      </h1>
+      <p class="text-lg sm:text-xl text-paper/80 max-w-xl mb-8 leading-relaxed">
+        [Add a 1–2 sentence pitch here — what makes Vrazel Automotive worth trusting with your vehicle?]
+      </p>
+      <div class="flex flex-wrap gap-4 mb-12">
+        <a href="#quote" class="bg-rust hover:bg-rust-600 transition-colors text-white font-bold px-7 py-4 rounded-sm uppercase tracking-wide text-sm sm:text-base">
+          Request a Quote
+        </a>
+        <a href="#contact" class="border border-paper/40 hover:border-safety hover:text-safety transition-colors font-bold px-7 py-4 rounded-sm uppercase tracking-wide text-sm sm:text-base">
+          Call [Phone Number]
+        </a>
+      </div>
+
+      <div class="flex flex-wrap gap-3">
+        <div class="flex items-center gap-2 bg-asphalt-700 border border-dashed border-steel/40 rounded-full px-4 py-2 text-sm font-semibold text-paper/60">
+          [Certification / Rating]
+        </div>
+        <div class="flex items-center gap-2 bg-asphalt-700 border border-dashed border-steel/40 rounded-full px-4 py-2 text-sm font-semibold text-paper/60">
+          [Certification / Rating]
+        </div>
+        <div class="flex items-center gap-2 bg-asphalt-700 border border-dashed border-steel/40 rounded-full px-4 py-2 text-sm font-semibold text-paper/60">
+          [Certification / Rating]
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe-divider"></div>
+
+<!-- ================= TRUST PILLARS ================= -->
+<section class="bg-paper py-16 sm:py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6 shadow-sm">
+        <div class="w-11 h-11 rounded-sm bg-rust/10 flex items-center justify-center mb-4">
+          <svg class="w-6 h-6 text-rust" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 9.5l9-6 9 6V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z"/></svg>
+        </div>
+        <h3 class="font-display text-2xl tracking-wide mb-1">Locally Owned</h3>
+        <p class="text-steel text-sm leading-relaxed">[Add a line about your ownership and how long you've served Saint Hedwig, TX.]</p>
+      </div>
+
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6 shadow-sm">
+        <div class="w-11 h-11 rounded-sm bg-rust/10 flex items-center justify-center mb-4">
+          <svg class="w-6 h-6 text-rust" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5 1a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="font-display text-2xl tracking-wide mb-1">Experienced Techs</h3>
+        <p class="text-steel text-sm leading-relaxed">[Add a line about your team's experience or certifications.]</p>
+      </div>
+
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6 shadow-sm">
+        <div class="w-11 h-11 rounded-sm bg-rust/10 flex items-center justify-center mb-4">
+          <svg class="w-6 h-6 text-rust" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-5 8l2 2 4-4"/></svg>
+        </div>
+        <h3 class="font-display text-2xl tracking-wide mb-1">Clear Estimates</h3>
+        <p class="text-steel text-sm leading-relaxed">[Add a line about your shop's estimate or pricing policy.]</p>
+      </div>
+
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6 shadow-sm">
+        <div class="w-11 h-11 rounded-sm bg-rust/10 flex items-center justify-center mb-4">
+          <svg class="w-6 h-6 text-rust" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M4 8h16M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8M9 12h6"/></svg>
+        </div>
+        <h3 class="font-display text-2xl tracking-wide mb-1">Full Diagnostics</h3>
+        <p class="text-steel text-sm leading-relaxed">[Add a line about the diagnostic services you offer.]</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="bg-asphalt-800 bg-asphalt text-paper py-16 sm:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-5 gap-12 items-center">
+    <div class="lg:col-span-3">
+      <p class="font-mono text-safety uppercase tracking-[0.25em] text-xs mb-3">About the Shop</p>
+      <h2 class="font-display text-4xl sm:text-5xl mb-6 leading-tight">ABOUT VRAZEL AUTOMOTIVE</h2>
+      <p class="text-paper/80 leading-relaxed mb-4">
+        [Add 2–3 sentences about Vrazel Automotive's history, ownership, and what makes the shop different. Include when it was established and who runs it.]
+      </p>
+      <p class="text-paper/80 leading-relaxed">
+        [Add a line about who you serve and what customers can expect when they bring a vehicle in.]
+      </p>
+    </div>
+    <div class="lg:col-span-2">
+      <div class="bg-asphalt-700 border border-steel/40 rounded-sm p-8 font-mono">
+        <p class="text-xs uppercase tracking-widest text-safety mb-4">Shop Record</p>
+        <dl class="space-y-4 text-sm">
+          <div class="flex justify-between border-b border-steel/30 pb-3">
+            <dt class="text-paper/60">Established</dt>
+            <dd class="text-right">[Year]</dd>
+          </div>
+          <div class="flex justify-between border-b border-steel/30 pb-3">
+            <dt class="text-paper/60">Ownership</dt>
+            <dd class="text-right">[Owner Name(s)]</dd>
+          </div>
+          <div class="flex justify-between border-b border-steel/30 pb-3">
+            <dt class="text-paper/60">Rating / Standing</dt>
+            <dd class="text-right">[BBB, Google, etc.]</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-paper/60">Service Area</dt>
+            <dd class="text-right">Saint Hedwig, TX &amp; surrounding area</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="bg-paper py-16 sm:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-6">
+      <p class="font-mono text-rust uppercase tracking-[0.25em] text-xs mb-3">What We Do</p>
+      <h2 class="font-display text-4xl sm:text-5xl">SERVICES</h2>
+    </div>
+    <p class="text-center text-xs font-mono text-steel/60 mb-14">Example services shown below &mdash; confirm Vrazel Automotive's actual offerings before this goes live.</p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6">
+        <h3 class="font-display text-2xl mb-2">Brake Service</h3>
+        <p class="text-steel text-sm leading-relaxed">[Confirm if offered]</p>
+      </div>
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6">
+        <h3 class="font-display text-2xl mb-2">AC &amp; Cooling</h3>
+        <p class="text-steel text-sm leading-relaxed">[Confirm if offered]</p>
+      </div>
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6">
+        <h3 class="font-display text-2xl mb-2">Engine Diagnostics</h3>
+        <p class="text-steel text-sm leading-relaxed">[Confirm if offered]</p>
+      </div>
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6">
+        <h3 class="font-display text-2xl mb-2">Electrical Systems</h3>
+        <p class="text-steel text-sm leading-relaxed">[Confirm if offered]</p>
+      </div>
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6">
+        <h3 class="font-display text-2xl mb-2">Routine Maintenance</h3>
+        <p class="text-steel text-sm leading-relaxed">[Confirm if offered]</p>
+      </div>
+      <div class="bg-white border border-asphalt/10 rounded-sm p-6">
+        <h3 class="font-display text-2xl mb-2">[Add a Service]</h3>
+        <p class="text-steel text-sm leading-relaxed">[Confirm if offered]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VEHICLE COVERAGE ================= -->
+<section class="bg-asphalt-700 bg-asphalt py-10 border-y border-steel/30">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
+    <p class="font-mono text-xs uppercase tracking-[0.25em] text-paper/60">[Confirm which makes/models you service — e.g. domestic &amp; import, all makes]</p>
+  </div>
+</section>
+
+<!-- ================= SHOP GALLERY ================= -->
+<section id="gallery" class="bg-paper py-16 sm:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-4">
+      <p class="font-mono text-rust uppercase tracking-[0.25em] text-xs mb-3">Our Shop</p>
+      <h2 class="font-display text-4xl sm:text-5xl">TAKE A LOOK INSIDE</h2>
+    </div>
+    <p class="text-center text-xs font-mono text-steel/60 mb-8">Stock photography shown for placement &mdash; swap in real Vrazel Automotive shop photos.</p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="relative aspect-video rounded-sm overflow-hidden border border-asphalt/10">
+        <img src="https://images.unsplash.com/photo-1676018366904-c083ed678e60?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Placeholder auto repair shop photo" class="w-full h-full object-cover">
+        <span class="absolute bottom-2 left-2 font-mono text-[10px] uppercase tracking-widest bg-asphalt/80 text-paper px-2 py-1 rounded-sm">Placeholder</span>
+      </div>
+      <div class="relative aspect-video rounded-sm overflow-hidden border border-asphalt/10">
+        <img src="https://images.unsplash.com/photo-1702146713858-8e7d1cc29fe8?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Placeholder auto repair shop photo" class="w-full h-full object-cover">
+        <span class="absolute bottom-2 left-2 font-mono text-[10px] uppercase tracking-widest bg-asphalt/80 text-paper px-2 py-1 rounded-sm">Placeholder</span>
+      </div>
+      <div class="relative aspect-video rounded-sm overflow-hidden border border-asphalt/10">
+        <img src="https://images.unsplash.com/photo-1591278169757-deac26e49555?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Placeholder auto repair shop photo" class="w-full h-full object-cover">
+        <span class="absolute bottom-2 left-2 font-mono text-[10px] uppercase tracking-widest bg-asphalt/80 text-paper px-2 py-1 rounded-sm">Placeholder</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="bg-asphalt text-paper py-16 sm:py-24 plate-texture">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <p class="font-mono text-safety uppercase tracking-[0.25em] text-xs mb-3">Reputation</p>
+      <h2 class="font-display text-4xl sm:text-5xl mb-3">WHAT CUSTOMERS ARE SAYING</h2>
+      <p class="font-mono text-sm text-paper/50">[Add your real rating once confirmed — e.g. Google, BBB]</p>
+    </div>
+
+    <div class="flex gap-5 overflow-x-auto no-scrollbar pb-4 snap-x snap-mandatory">
+      <div class="min-w-[85%] sm:min-w-[380px] snap-start bg-asphalt-700 border border-steel/40 rounded-sm p-6">
+        <p class="text-paper/60 italic leading-relaxed">&ldquo;[Space reserved for a real customer review &mdash; add before this goes live.]&rdquo;</p>
+        <p class="font-mono text-xs text-paper/40 mt-4">&mdash; Customer Review</p>
+      </div>
+      <div class="min-w-[85%] sm:min-w-[380px] snap-start bg-asphalt-700 border border-steel/40 rounded-sm p-6">
+        <p class="text-paper/60 italic leading-relaxed">&ldquo;[Space reserved for a real customer review &mdash; add before this goes live.]&rdquo;</p>
+        <p class="font-mono text-xs text-paper/40 mt-4">&mdash; Customer Review</p>
+      </div>
+      <div class="min-w-[85%] sm:min-w-[380px] snap-start bg-asphalt-700 border border-steel/40 rounded-sm p-6">
+        <p class="text-paper/60 italic leading-relaxed">&ldquo;[Space reserved for a real customer review &mdash; add before this goes live.]&rdquo;</p>
+        <p class="font-mono text-xs text-paper/40 mt-4">&mdash; Customer Review</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUOTE FORM (WORK ORDER) ================= -->
+<section id="quote" class="bg-paper py-16 sm:py-24">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-10">
+      <p class="font-mono text-rust uppercase tracking-[0.25em] text-xs mb-3">Get In Touch</p>
+      <h2 class="font-display text-4xl sm:text-5xl">REQUEST A QUOTE</h2>
+      <p class="text-steel mt-3 max-w-xl mx-auto">[Add a line about your pricing/estimate policy here.]</p>
+    </div>
+
+    <!--
+      This form is not yet connected. Create a free Formspree account
+      (formspree.io), make a new form, and replace YOUR_FORM_ID below with
+      the endpoint it gives you. The notification email is managed entirely
+      in the Formspree dashboard, not in this file.
+    -->
+    <form id="quote-form" class="bg-white border border-asphalt/15 rounded-sm shadow-lg overflow-hidden" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="ticket-perf bg-asphalt text-paper px-6 sm:px-10 py-5 flex items-center justify-between">
+        <div>
+          <p class="font-display text-2xl tracking-wide leading-none">WORK ORDER REQUEST</p>
+          <p class="font-mono text-[11px] text-paper/50 mt-1">Vrazel Automotive</p>
+        </div>
+        <svg class="w-8 h-8 text-safety shrink-0" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 4h2a2 2 0 012 2v1h3a1 1 0 011 1v11a1 1 0 01-1 1H6a1 1 0 01-1-1V8a1 1 0 011-1h3V6a2 2 0 012-2z"/></svg>
+      </div>
+
+      <input type="hidden" name="_subject" value="New Quote Request — Vrazel Automotive Website">
+      <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off">
+
+      <div id="quote-form-fields" class="p-6 sm:p-10 grid sm:grid-cols-2 gap-6">
+        <div>
+          <label for="q-name" class="block font-mono text-xs uppercase tracking-widest text-steel mb-2">Full Name</label>
+          <input id="q-name" name="name" type="text" required placeholder="Jane Doe"
+            class="w-full border-2 border-asphalt/15 focus:border-rust outline-none rounded-sm px-4 py-3 bg-paper/40 transition-colors">
+        </div>
+        <div>
+          <label for="q-phone" class="block font-mono text-xs uppercase tracking-widest text-steel mb-2">Phone Number</label>
+          <input id="q-phone" name="phone" type="tel" required placeholder="(210) 000-0000"
+            class="w-full border-2 border-asphalt/15 focus:border-rust outline-none rounded-sm px-4 py-3 bg-paper/40 transition-colors">
+        </div>
+        <div>
+          <label for="q-vehicle" class="block font-mono text-xs uppercase tracking-widest text-steel mb-2">Vehicle Year / Make / Model</label>
+          <input id="q-vehicle" name="vehicle" type="text" required placeholder="2019 Ford F-150"
+            class="w-full border-2 border-asphalt/15 focus:border-rust outline-none rounded-sm px-4 py-3 bg-paper/40 transition-colors">
+        </div>
+        <div>
+          <label for="q-service" class="block font-mono text-xs uppercase tracking-widest text-steel mb-2">Requested Service</label>
+          <input id="q-service" name="service" type="text" required placeholder="Brakes, AC repair, diagnostics..."
+            class="w-full border-2 border-asphalt/15 focus:border-rust outline-none rounded-sm px-4 py-3 bg-paper/40 transition-colors">
+        </div>
+        <div class="sm:col-span-2">
+          <label for="q-notes" class="block font-mono text-xs uppercase tracking-widest text-steel mb-2">Additional Details (Optional)</label>
+          <textarea id="q-notes" name="notes" rows="4" placeholder="Anything else we should know?"
+            class="w-full border-2 border-asphalt/15 focus:border-rust outline-none rounded-sm px-4 py-3 bg-paper/40 transition-colors"></textarea>
+        </div>
+      </div>
+
+      <div id="quote-form-footer" class="px-6 sm:px-10 pb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div class="flex items-start gap-2 text-xs text-steel font-mono max-w-sm">
+          <svg class="w-4 h-4 text-rust shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v4a1 1 0 00.29.71l3 3a1 1 0 001.42-1.42L11 9.59V7z" clip-rule="evenodd"/></svg>
+          <span>[Add a line about your estimate/pricing policy here.]</span>
+        </div>
+        <button type="submit" id="quote-form-submit" class="w-full sm:w-auto bg-rust hover:bg-rust-600 transition-colors text-white font-bold px-8 py-4 rounded-sm uppercase tracking-wide text-sm">
+          Submit Request
+        </button>
+      </div>
+
+      <div id="quote-form-success" class="hidden px-6 sm:px-10 pb-10 pt-2 text-center">
+        <svg class="w-10 h-10 text-rust mx-auto mb-3" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5 1a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <p class="font-display text-2xl tracking-wide">REQUEST RECEIVED</p>
+        <p class="text-steel mt-2">Thanks &mdash; we'll be in touch. If it's urgent, call us at [Phone Number].</p>
+      </div>
+
+      <div id="quote-form-error" class="hidden px-6 sm:px-10 pb-6 -mt-2">
+        <p class="text-sm text-rust font-semibold">Something went wrong sending your request. Please call us instead at [Phone Number], or try again.</p>
+      </div>
+    </form>
+    <p class="text-center text-xs text-steel font-mono mt-4">Prefer to talk it through? Call us at [Phone Number].</p>
+
+    <script>
+      (function () {
+        var form = document.getElementById('quote-form');
+        var submitBtn = document.getElementById('quote-form-submit');
+        var errorBox = document.getElementById('quote-form-error');
+
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          errorBox.classList.add('hidden');
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Sending...';
+
+          fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+          }).then(function (response) {
+            if (response.ok) {
+              document.getElementById('quote-form-fields').classList.add('hidden');
+              document.getElementById('quote-form-footer').classList.add('hidden');
+              document.getElementById('quote-form-success').classList.remove('hidden');
+            } else {
+              errorBox.classList.remove('hidden');
+              submitBtn.disabled = false;
+              submitBtn.textContent = 'Submit Request';
+            }
+          }).catch(function () {
+            errorBox.classList.remove('hidden');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Submit Request';
+          });
+        });
+      })();
+    </script>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="bg-asphalt-700 bg-asphalt text-paper py-16 sm:py-24">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <p class="font-mono text-safety uppercase tracking-[0.25em] text-xs mb-3">Good to Know</p>
+      <h2 class="font-display text-4xl sm:text-5xl">FREQUENTLY ASKED QUESTIONS</h2>
+    </div>
+
+    <div class="space-y-3">
+      <details class="group bg-asphalt-700 border border-steel/40 rounded-sm" open>
+        <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer font-semibold">
+          Do I need an appointment?
+          <svg class="w-5 h-5 text-safety shrink-0 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg>
+        </summary>
+        <div class="px-6 pb-5 text-paper/70 leading-relaxed">
+          [Confirm your appointment policy and add your hours here.]
+        </div>
+      </details>
+
+      <details class="group bg-asphalt-700 border border-steel/40 rounded-sm">
+        <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer font-semibold">
+          How long does a repair take?
+          <svg class="w-5 h-5 text-safety shrink-0 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg>
+        </summary>
+        <div class="px-6 pb-5 text-paper/70 leading-relaxed">
+          [Add your typical turnaround policy here.]
+        </div>
+      </details>
+
+      <details class="group bg-asphalt-700 border border-steel/40 rounded-sm">
+        <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer font-semibold">
+          What warranty comes with the work?
+          <svg class="w-5 h-5 text-safety shrink-0 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg>
+        </summary>
+        <div class="px-6 pb-5 text-paper/70 leading-relaxed">
+          [Add your warranty policy here.]
+        </div>
+      </details>
+
+      <details class="group bg-asphalt-700 border border-steel/40 rounded-sm">
+        <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer font-semibold">
+          Can I drop off my vehicle after hours?
+          <svg class="w-5 h-5 text-safety shrink-0 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg>
+        </summary>
+        <div class="px-6 pb-5 text-paper/70 leading-relaxed">
+          [Confirm whether you offer after-hours or early drop-off, and any instructions for customers.]
+        </div>
+      </details>
+
+      <details class="group bg-asphalt-700 border border-steel/40 rounded-sm">
+        <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer font-semibold">
+          Will I be surprised by the final bill?
+          <svg class="w-5 h-5 text-safety shrink-0 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg>
+        </summary>
+        <div class="px-6 pb-5 text-paper/70 leading-relaxed">
+          [Add your pricing/estimate policy here.]
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="stripe-divider"></div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-asphalt text-paper/80">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <span class="font-display text-3xl text-paper tracking-wide">VRAZEL</span>
+      <p class="text-sm mt-3 leading-relaxed">[Add a one-sentence description of Vrazel Automotive here.]</p>
+    </div>
+
+    <div>
+      <h4 class="font-mono text-xs uppercase tracking-widest text-safety mb-4">Visit the Shop</h4>
+      <p class="text-sm leading-relaxed">[Street Address]<br>Saint Hedwig, TX [ZIP]</p>
+    </div>
+
+    <div>
+      <h4 class="font-mono text-xs uppercase tracking-widest text-safety mb-4">Hours</h4>
+      <ul class="text-sm space-y-1">
+        <li class="flex justify-between gap-6"><span>[Days]</span><span>[Hours]</span></li>
+        <li class="flex justify-between gap-6"><span>[Days]</span><span>[Hours]</span></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="font-mono text-xs uppercase tracking-widest text-safety mb-4">Get In Touch</h4>
+      <span class="block text-lg font-display tracking-wide text-paper mb-2">[Phone Number]</span>
+      <a href="#quote" class="inline-block mt-2 bg-rust hover:bg-rust-600 transition-colors text-white font-bold px-5 py-3 rounded-sm uppercase tracking-wide text-xs">
+        Request a Quote
+      </a>
+    </div>
+  </div>
+  <div class="border-t border-steel/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row justify-between gap-2 text-xs font-mono text-paper/40">
+      <span>&copy; 2026 Vrazel Automotive. All rights reserved.</span>
+      <span>Mockup site &mdash; content pending confirmation with owner.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
